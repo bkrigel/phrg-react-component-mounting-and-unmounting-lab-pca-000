@@ -5,6 +5,9 @@ import Game from './components/Game';
 import './style.css';
 
 ReactDOM.render(
-  <Game />,
+  <div>
+    <Game />
+    <Pancake />
+  </div>,
   document.getElementById('root')
 );
